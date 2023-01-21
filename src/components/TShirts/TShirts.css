@@ -1,0 +1,43 @@
+.tshirt{
+    text-align: center;
+    background-color: rgb(248, 232, 232);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.tshirt h2{
+    margin: 0;
+}
+.tshirt p{
+    margin: 10px;
+}
+.tshirt button{
+    background-color:tomato;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 25px;
+}
+.tshirt button:hover{
+    background-color: steelblue;
+}
+@media (max-width: 601px) {
+    .tshirt{
+        width: 70%;
+    }
+    .image{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .tshirt button{
+        padding: 5px 10px;
+    }
+    .tshirt h2{
+        font-size: 16px;
+    }
+}
